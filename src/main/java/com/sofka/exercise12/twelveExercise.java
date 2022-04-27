@@ -1,5 +1,7 @@
 package com.sofka.exercise12;
 
+import org.apache.commons.lang3.StringUtils;
+
 import java.util.Scanner;
 
 public class twelveExercise {
@@ -13,8 +15,7 @@ public class twelveExercise {
         if(firstWord.equals(secondWord)){
             System.out.println("Palabras iguales");
         } else{
-
-            //StringUtils.difference(firstWord, secondWord);
+            System.out.println("Palabras diferentes, difieren en las siguientes letras: " + StringUtils.difference(firstWord, secondWord));
         }
 
     }

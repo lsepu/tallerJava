@@ -1,0 +1,10 @@
+
+k	java:S117C"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(³òúŸýÿÿÿÿ
+k	java:S117D"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ñ²¯­úÿÿÿÿ
+f	java:S117H"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ü‰Åæ
+f	java:S117O"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(üÝüá
+y
+java:S14882"cImmediately return this expression instead of assigning it to the temporary variable "personaInfo".(ï”þ“
+h	java:S116"NRename this field "DNI" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(èüöšýÿÿÿÿ
+D
+java:S2140C")Use "java.util.Random.nextInt()" instead.(³òúŸýÿÿÿÿ

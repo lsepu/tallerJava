@@ -10,8 +10,9 @@ repositories {
 }
 
 dependencies {
-    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
-    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
+    implementation 'io.github.wniemiec-util-java:string-utils:1.1.0'
+    implementation 'io.github.wniemiec-util-data:string-utils:1.0.0'
+    implementation group: 'org.apache.commons', name: 'commons-lang3', version: '3.12.0'
 }
 
 test {

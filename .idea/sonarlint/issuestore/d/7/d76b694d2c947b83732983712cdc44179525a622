@@ -1,0 +1,8 @@
+
+a
+java:S1192"FDefine a constant instead of duplicating this literal "White" 3 times.(´ â™üÿÿÿÿ
+g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(†ÀÔËþÿÿÿÿ
+S	java:S1066"9Replace this use of System.out or System.err by a logger.(ö¯‡®ýÿÿÿÿ
+M	java:S1067"9Replace this use of System.out or System.err by a logger.(•ßÃ
+N	java:S1068"9Replace this use of System.out or System.err by a logger.(”Ì½õ
+S	java:S1069"9Replace this use of System.out or System.err by a logger.(ÙÇœŒùÿÿÿÿ

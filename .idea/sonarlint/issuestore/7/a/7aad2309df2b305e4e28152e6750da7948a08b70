@@ -1,0 +1,12 @@
+
+o
+java:S22939"YReplace the type specification in this constructor call with the diamond operator ("<>").(ù‡ûï
+i
+java:S1192S"SUse already-defined constant 'DEFAULT_COLOR' instead of duplicating its value here.(×Ûðù
+H
+java:S1128"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ
+A
+java:S1128"+Remove this unused import 'java.util.Date'.(¸…¼ü
+?
+java:S1068
+")Remove this unused "color" private field.(È„…¦

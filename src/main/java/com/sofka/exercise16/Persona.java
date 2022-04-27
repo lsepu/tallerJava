@@ -69,13 +69,13 @@ public class Persona {
         this.DNI = Integer.toString(DNINumbers) + DNILetter;
     }
 
-    public char calcularLetra(int DNI){
+    public Character calcularLetra(int DNI){
         String letters ="TRWAGMYFPDXBNJZSQVHLCKE";
         int rest = DNI % 23;
         return letters.charAt(rest);
     }
 
-    public int calcularIMC(){
+    public Integer calcularIMC(){
         double IMC = this.peso/ Math.pow(this.altura,2);
         if(IMC < 20){
             return PESO_INFERIOR;
