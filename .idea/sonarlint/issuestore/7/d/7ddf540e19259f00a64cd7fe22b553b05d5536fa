@@ -1,18 +1,0 @@
-
-e	java:S1174"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(õ“ˆ=
-g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(¤ØÕùÿÿÿÿ
-N	java:S106"9Replace this use of System.out or System.err by a logger.(ÎƒÿË
-U	java:S106
-"9Replace this use of System.out or System.err by a logger.(É›ÄÇ8‘æä…0
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(Í‹‹îúÿÿÿÿ8õ·æä…0
-T	java:S106"9Replace this use of System.out or System.err by a logger.(´©8õ·æä…0
-U	java:S106"9Replace this use of System.out or System.err by a logger.(µ…§ã8æ¯çä…0
-U	java:S106$"9Replace this use of System.out or System.err by a logger.(ÓıÒ‹8æ¯çä…0
-U	java:S106)"9Replace this use of System.out or System.err by a logger.(²Ñªš8å·êä…0
-U	java:S106/"9Replace this use of System.out or System.err by a logger.(¦ˆ©8öËìä…0
-<	java:S1315""Add a default case to this switch.(²Ó¹üÿÿÿÿ
-Z	java:S1067"9Replace this use of System.out or System.err by a logger.(‡ıÿ˜üÿÿÿÿ8öËìä…0
-Z	java:S106:"9Replace this use of System.out or System.err by a logger.(’Ñ…äøÿÿÿÿ8öËìä…0
-U	java:S106="9Replace this use of System.out or System.err by a logger.(ÕÜ¨µ8öËìä…0
-U	java:S106D"9Replace this use of System.out or System.err by a logger.(¶Ù‰é8Îß†å…0
-U	java:S106F"9Replace this use of System.out or System.err by a logger.(ÃÕöÜ8Îß†å…0

@@ -8,9 +8,13 @@ public class thirdExercise {
         Scanner sc = new Scanner(System.in);
         System.out.println("Ingrese el radio del círculo: ");
         double radius = Double.parseDouble(sc.nextLine());
-        System.out.println("El área del círculo es: " + (Math.PI * Math.pow(radius,2) ) );
+        System.out.println("El área del círculo es: " + circleArea(radius));
 
+    }
 
+    public static Double circleArea(double radius) {
+        //pi * r^2
+        return Math.PI * Math.pow(radius, 2);
     }
 
 }

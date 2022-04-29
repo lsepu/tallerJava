@@ -4,6 +4,10 @@ import java.util.Scanner;
 
 public class fifteenExercise {
     public static void main(String[] args) {
+        showMenu();
+    }
+
+    public static void showMenu(){
         Scanner sc = new Scanner(System.in);
         int option = 0;
         while (option!=8){

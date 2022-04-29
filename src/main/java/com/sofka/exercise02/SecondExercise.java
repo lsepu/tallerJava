@@ -11,16 +11,22 @@ public class SecondExercise {
         System.out.println("Ingrese el segundo número");
         int secondNumber = sc.nextInt();
 
-        switch (Integer.compare(firstNumber, secondNumber)){
-            case 1:
-                System.out.println("el numero mayor es: " + firstNumber);
-                break;
-            case -1:
-                System.out.println("el número mayor es: " + secondNumber);
-                break;
-            case 0:
-                System.out.println("Los números son iguales");
-                break;
+        compareNumbers(firstNumber, secondNumber);
+
+    }
+
+    public static void compareNumbers(int firstNumber, int secondNumber) {
+        if (firstNumber == secondNumber) {
+            System.out.println("Números iguales");
+        } else {
+            System.out.println("El número mayor es: " + getBiggerNumber(firstNumber, secondNumber));
         }
+    }
+
+    public static int getBiggerNumber(int firstNumber, int secondNumber) {
+        if (firstNumber > secondNumber) {
+            return firstNumber;
+        }
+        return secondNumber;
     }
 }

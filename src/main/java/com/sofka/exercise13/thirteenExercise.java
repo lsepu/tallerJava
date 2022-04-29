@@ -5,7 +5,9 @@ import java.time.format.DateTimeFormatter;
 
 public class thirteenExercise {
     public static void main(String[] args) {
-        DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy/MM/dd HH:mm:ss");
-        System.out.println(dtf.format(LocalDateTime.now()));
+        DateTimeFormatter dateTimeFormatter = DateTimeFormatter.ofPattern("yyyy/MM/dd HH:mm:ss");
+        LocalDateTime currentDate = LocalDateTime.now();
+
+        System.out.println(dateTimeFormatter.format(currentDate));
     }
 }

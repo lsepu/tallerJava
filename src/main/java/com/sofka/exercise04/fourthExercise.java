@@ -8,8 +8,13 @@ public class fourthExercise {
         Scanner sc = new Scanner(System.in);
         System.out.println("Ingrese el precio del producto (pesos)");
         Double price = sc.nextDouble();
-        System.out.println("El IVA es: " + price * 0.21 + " pesos");
+        System.out.println("El precio con IVA es: " + totalPrice(price) + " pesos");
+    }
 
+    //calculate price with IVA
+    public static Double totalPrice(Double price){
+        Double priceIva = (price * 0.21);
+        return price + priceIva;
     }
 
 
